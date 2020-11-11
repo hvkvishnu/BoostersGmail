@@ -1,0 +1,14 @@
+[
+    {
+      "index": 0,
+      "isStarred": false,
+      "name": {
+        "first": "Bright",
+        "last": "Duran"
+      },
+      "subject": "Lorem commodo nostrud",
+      "description": "In commodo ut occaecat amet ipsum ut sunt reprehenderit.",
+      "fromEmail": "To: bright.duran@.yurture.net",
+       "date": "Mar 10"
+    }
+  ]

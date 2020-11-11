@@ -1,0 +1,62 @@
+[
+    {
+      "index": 0,
+      "isStarred": false,
+      "name": {
+        "first": "To: John",
+        "last": "Cooper"
+      },
+      "subject": "occaecat enim sint",
+      "description": "Ipsum veniam magna occaecat occaecat nisi ad do.",
+      "fromEmail": "To: to: john.cooper@.assitia.io",
+      "date": "Oct 30"
+    },
+    {
+      "index": 1,
+      "isStarred": true,
+      "name": {
+        "first": "To: Lakeisha",
+        "last": "Leach"
+      },
+      "subject": "exercitation culpa proident",
+      "description": "Et aliquip anim cillum duis officia aliqua commodo excepteur exercitation minim.",
+      "fromEmail": "To: to: lakeisha.leach@.phuel.com",
+      "date": "Mar 10"
+    },
+    {
+      "index": 2,
+      "isStarred": false,
+      "name": {
+        "first": "To: Imogene",
+        "last": "Stephenson"
+      },
+      "subject": "ea eu voluptate",
+      "description": "Consectetur ad exercitation excepteur magna amet.",
+      "fromEmail": "To: to: imogene.stephenson@.oatfarm.us",
+      "date": "May 10"
+    },
+    {
+      "index": 3,
+      "isStarred": true,
+      "name": {
+        "first": "To: Schmidt",
+        "last": "Huff"
+      },
+      "subject": "non excepteur pariatur",
+      "description": "Culpa culpa dolor dolor dolore nisi anim aliqua sunt labore minim.",
+      "fromEmail": "To: to: schmidt.huff@.entogrok.name",
+      "date": "Jul 1"
+    },
+    {
+      "index": 4,
+      "isStarred": true,
+      "name": {
+        "first": "To: Sawyer",
+        "last": "Higgins"
+      },
+      "subject": "cupidatat Lorem dolor",
+      "description": "Ut labore proident officia mollit id in.",
+      "fromEmail": "To: to: sawyer.higgins@.autograte.info",
+      "date": "Jul 26"
+    }
+  ]

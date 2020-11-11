@@ -1,0 +1,51 @@
+[
+    {
+      "index": 0,
+      "isStarred": false,
+      "name": {
+        "first": "Draft: Carolyn",
+        "last": "Hendrix"
+      },
+      "subject": "minim cupidatat id",
+      "description": "Tempor incididunt et cillum exercitation ex anim culpa nisi minim.",
+      "fromEmail": "To: draft: carolyn.hendrix@.myopium.biz",
+      "date": "Aug 1"
+    },
+    {
+      "index": 1,
+      "isStarred": true,
+      "name": {
+        "first": "Draft: Amalia",
+        "last": "Guthrie"
+      },
+      "subject": "cillum pariatur adipisicing",
+      "description": "Aute nulla dolore elit ipsum laborum consequat mollit.",
+      "fromEmail": "To: draft: amalia.guthrie@.neurocell.io",
+      "date": "Jul 14"
+    },
+    {
+      "index": 2,
+      "isStarred": false,
+      "name": {
+        "first": "Draft: Angeline",
+        "last": "Gomez"
+      },
+      "subject": "tempor culpa magna",
+      "description": "Laborum minim est anim consequat in est Lorem nostrud cillum eiusmod.",
+      "fromEmail": "To: draft: angeline.gomez@.greeker.co.uk",
+      "date": "Aug 19"
+    },
+    {
+      "index": 3,
+      "isStarred": true,
+      "name": {
+        "first": "Draft: Oliver",
+        "last": "Fry"
+      },
+      "subject": "laboris sint proident",
+      "description": "Ullamco voluptate velit dolore aliqua minim Lorem.",
+      "fromEmail": "To: draft: oliver.fry@.elita.us",
+      "date": "Nov 15"
+    }
+  ]
+  
