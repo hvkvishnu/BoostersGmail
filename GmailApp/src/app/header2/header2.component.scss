@@ -1,0 +1,26 @@
+.header-2{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    color: rgba(230, 231, 233, 0.555);;
+}
+.header-2 .left{
+    width: 10%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    
+}
+.header-2 .right {
+    
+    width: 20%;
+    float: right;
+    margin-left: 10px;   
+    // align-items: flex-end;
+    // justify-content: space-between; 
+}
+.header-2 .right i{
+    margin-left: 10px;
+}
+
+

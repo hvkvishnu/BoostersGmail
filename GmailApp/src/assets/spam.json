@@ -1,0 +1,27 @@
+[
+    {
+      "index": 0,
+      "isStarred": false,
+      "name": {
+        "first": "Draft: Collins",
+        "last": "Chandler"
+      },
+      "subject": "tempor enim esse",
+      "description": "Anim voluptate excepteur amet nostrud ipsum cillum ipsum culpa amet eu.",
+      "fromEmail": "To: draft: collins.chandler@.uxmox.ca",
+      "date": "Sep 2"
+    },
+    {
+      "index": 1,
+      "isStarred": true,
+      "name": {
+        "first": "Draft: Jennings",
+        "last": "Fulton"
+      },
+      "subject": "incididunt ad et",
+      "description": "Velit est excepteur non commodo quis reprehenderit in consequat qui.",
+      "fromEmail": "To: draft: jennings.fulton@.polarium.org",
+      "date": "Jul 14"
+    }
+  ]
+  

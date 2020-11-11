@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'GmailApp'`, () => {
+  it(`should have as title 'firstAngular'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('GmailApp');
+    expect(app.title).toEqual('firstAngular');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('GmailApp app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('firstAngular app is running!');
   });
 });

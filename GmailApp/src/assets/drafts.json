@@ -1,0 +1,38 @@
+[
+    {
+      "index": 0,
+      "isStarred": true,
+      "name": {
+        "first": "Draft: Marisa",
+        "last": "Sweet"
+      },
+      "subject": "dolor nulla consequat",
+      "description": "Non ad qui id ut mollit.",
+      "fromEmail": "To: draft: marisa.sweet@.exospeed.name",
+      "date": "Apr 9"
+    },
+    {
+      "index": 1,
+      "isStarred": false,
+      "name": {
+        "first": "Draft: Chambers",
+        "last": "Melendez"
+      },
+      "subject": "non commodo in",
+      "description": "Ut in nulla proident cillum non laboris.",
+      "fromEmail": "To: draft: chambers.melendez@.magnafone.co.uk",
+      "date": "Feb 24"
+    },
+    {
+      "index": 2,
+      "isStarred": true,
+      "name": {
+        "first": "Draft: Lara",
+        "last": "Morales"
+      },
+      "subject": "esse magna nisi",
+      "description": "Lorem incididunt aliqua adipisicing ad voluptate irure elit pariatur.",
+      "fromEmail": "To: draft: lara.morales@.photobin.ca",
+      "date": "Mar 10"
+    }
+  ]

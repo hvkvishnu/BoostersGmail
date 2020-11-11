@@ -1,0 +1,96 @@
+<div class="header">
+    <div class="header-left">
+        <div class="menu"><button (click)="menuClick()"><i class="fa fa-bars rounded" aria-hidden="true"></i></button></div>
+        <div><img src="/assets/logo.png" alt="logo"></div>
+    </div>
+    <div class="header-center">
+        <div class="search-container">
+            <input type="text" placeholder="Search mail" [(ngModel)]="searchText" >
+            <button type="submit" (click)="addSearchText()"><i class="fa fa-search"></i></button>
+        </div>
+    </div>
+    <div class="header-right">
+        <div class="quesDiv">
+            <i class="fas fa-question-circle rounded" (click)="quesMenu=!quesMenu"></i>
+            <div class="quesMenu" *ngIf="quesMenu">
+                <div class="ques-item">Help</div>
+                <div class="ques-item">Training</div>
+                <div class="ques-item">Updates</div>
+                <div class="ques-item">Send feedback</div>
+            </div>     
+        </div>
+        <div>
+            <i class="fas fa-cog rounded" ></i>
+        </div>
+        <div (click)="onClick()"><i class="fa fa-bars rounded" aria-hidden="true"></i></div>
+        <div class="profile-container">
+            <img src="assets/avatar.png" alt="avatar" style="margin-top: -5px; cursor: pointer;" (click)="profileMenu=!profileMenu" >
+            <div class="profile-card" *ngIf="profileMenu" >
+                <img src="assets/avatar.png" alt="avatar" class="profile-pic" >
+                <p class="profile-name">Barney Stinson</p>
+                <p class="profile-email">suit_uppp@gmail.com</p>
+                <button>Manage your Google Account</button>
+            </div>
+        </div>
+            
+            <!-- <div><button (click)="onClick()"><i class="fa fa-bars rounded" aria-hidden="true"></i></button></div>
+            <div><img src="assets/avatar.png" alt="avatar" ></div> -->
+        </div>
+    <ng-container *ngIf="visible">
+        <div class="card">
+            <div>
+                <a href="https://www.google.com/account/about/?hl=en"> <div class="Account"><img src="assets/avatar.png"><span>Account</span></div></a>
+            </div>
+            <div>
+                <a href="https://www.google.co.in/webhp?tab=ww"><div class="search"><img src="assets/search.png"><span>Google</span></div></a>
+            </div>
+            <div>
+                <a href="https://business.google.com/dashboard/l/05785504264064222203?gmbsrc=ww-ww-ot-gs-z-gmb-l-z-h~z-ogb-u" > <div class="business"><img src="assets/business.png"><span>Business</span></div></a>
+            </div>
+            <div>                
+                <a href="https://maps.google.co.in/maps?hl=en&tab=wl"> <div class="maps"><img src="assets/maps.png"><span>Maps</span></div></a>
+            </div>
+            <div>                
+                <a href="https://www.youtube.com/?gl=IN&tab=w1"> <div class="youtube"><img src="assets/youtube.png"><span>YouTube</span></div></a>
+            </div>
+            <div>                
+                <a href="https://play.google.com/?hl=en&tab=w8"> <div class="playstore"><img src="assets/playstore.jpg"><span>PlayStore</span></div></a>
+            </div>
+            <div>                
+                <a href="https://news.google.com/topstories?tab=8n&hl=en-IN&gl=IN&ceid=IN:en">  <div class="news"><img src="assets/news.jpg"><span>News</span></div></a>
+            </div>
+            <div>                
+                <a href="https://accounts.google.com/ServiceLogin?service=mail&passive=true&rm=false&continue=https://mail.google.com/mail/?tab%3D8m&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1#">  <div class="gmail"><img src="assets/mail.png"><span>Mail</span></div></a>
+            </div>
+            <div>                
+                <a href="https://apps.google.com/meet/?hs=197">  <div class="meet"><img src="assets/meet.jpg"><span>Meet</span></div></a>
+            </div>
+            <div>                
+                <a href="https://accounts.google.com/ServiceLogin?passive=1209600&continue=https://contacts.google.com/?hl%3Den%26tab%3DnC&followup=https://contacts.google.com/?hl%3Den%26tab%3DnC&hl=en">  <div class="contacts"><img src="assets/contact.jpg"><span>Contacts</span></div></a>
+            </div>
+            <div>                
+                <a href="https://accounts.google.com/ServiceLogin?service=wise&passive=1209600&continue=https://drive.google.com/?tab%3Dno&followup=https://drive.google.com/?tab%3Dno&emr=1">  <div class="drive"><img src="assets/drive.jpg"><span>Drive</span></div></a>
+            </div>
+            <div>                
+                <a href="https://accounts.google.com/ServiceLogin?service=cl&passive=1209600&osid=1&continue=https://calendar.google.com/calendar/render?tab%3Dnc&followup=https://calendar.google.com/calendar/render?tab%3Dnc&scc=1">  <div class="calender"><img src="assets/calendar.png"><span>Calendar</span></div></a>
+            </div>
+            <div>                
+                <a href="https://translate.google.co.in/?hl=en&tab=nT">  <div class="translate"><img src="assets/translate.jpg"><span>Translate</span></div></a>
+            </div>
+            <div>            
+                <a href="https://www.google.com/photos/about/">  <div class="photos"><img src="assets/photos.png"><span>Photos</span></div></a>
+            </div>
+            <div>                
+                <a href="https://duo.google.com/about/?usp=duo_ald">  <div class="duo"><img src="assets/duo.png"><span>Duo</span></div></a>
+            </div>
+            <div>                
+                <a href="https://www.google.com/chrome/?brand=CHZO&utm_source=google.com&utm_medium=desktop-app-launcher&utm_campaign=desktop-app-launcher&utm_content=chrome-logo&utm_keyword=CHZO">  <div class="chrome"><img src="assets/chrome.jpg"><span>Chrome</span></div></a>
+            </div>
+            <div>
+                <a href="https://www.google.co.in/shopping?hl=en&source=og&tab=nf">  <div class="shopping"><img src="assets/shopping.png"><span>Shopping</span></div></a>
+            </div>
+        </div>
+    </ng-container>
+
+    
+</div>

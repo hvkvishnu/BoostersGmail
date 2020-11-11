@@ -1,0 +1,72 @@
+<div *ngIf="msg" class="msg-container">
+
+<div class="header">
+  <h1>Some Subject Info {{msg.subject}} </h1>
+  <button>Mail x</button>
+  <div class="idiv">
+    <i class="fas fa-print"></i>
+    <i class="fas fa-external-link-alt"></i>
+  </div>
+</div>
+<div class="container">
+<div class="sender">
+  <span><img src="assets/ContactAvatar.png" height="40px" width="40px"></span>
+  <div class="senderMail">
+      <span style="font-weight: bolder; font-size: large;">{{msg.name.first}} {{msg.name.last}} </span>
+   
+     <span><{{msg.fromEmail}}></span>
+  </div>
+</div>
+
+<div class="right-icons">
+
+    <span>{{msg.date}}</span>
+    <i class="fa fa-star" (click)="starred=!starred" [ngStyle]="starred? {'color': 'orange'} : {'color': 'black'} "></i>
+    <i class="fas fa-reply"></i>
+
+    <div class="dropdown" >
+      <button class="dropbtn" (click)="showDropDown=!showDropDown" (blur)="showDropDown=false"><i class="fa fa-ellipsis-v" ></i></button>
+      <div class="dropdown-content" *ngIf="showDropDown" >
+        <a href="#"> <i class="fa fa-reply" aria-hidden="true"></i> <span>Reply</span> </a>
+        <a href="#">    <i class="fas fa-long-arrow-alt-right"></i> <span>Forward</span></a>
+        <a href="#"> <span>Filter messages </span> </a>
+        <a href="#"> <span>Print</span> </a>
+        <a href="#"> <span>Delete this message</span> </a>
+        <a href="#"> <span>Block {{msg.name.first+" "+msg.name.last}}</span> </a>
+        <a href="#"> <span>Report spam</span> </a>
+        <a href="#"> <span>Show original</span> </a>
+        <a href="#"> <span>Translate message</span> </a>
+        <a href="#"> <span>Show message</span> </a>
+        <a href="#"> <span>mark as unread</span> </a>
+      </div>
+   </div>
+ </div>
+</div>
+
+<div class="msg">
+  <div>{{msg.description}}</div>
+  <div><img src="assets/MailInbox.jpg" height="300x" weight="150" > </div>
+</div>
+
+<div class="bottombar" >
+    <button><i class="fa fa-reply" aria-hidden="true"></i>Reply</button>
+    <button><i class="fa fa-share" aria-hidden="true"></i>Forward</button>
+</div>
+
+
+
+</div>
+<!-- /* 
+  {
+      "index": 0,
+      "isStarred": false,
+      "name": {
+        "first": "Andrea",
+        "last": "Martin"
+      },
+      "subject": "id sint nostrud",
+      "description": "Dolore ipsum fugiat nisi id officia ireprehenderit in aliqua nisi excepteur.",
+      "fromEmail": "andrea.martin@.comveyer.ca",
+       "date": "10:44 PM"
+    },
+-->
